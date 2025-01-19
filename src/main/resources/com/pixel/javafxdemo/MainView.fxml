@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1">
+    <TextField fx:id="productName" promptText="Product Name" />
+    <TextField fx:id="productPrice" promptText="Product Price" />
+    <Button text="Add Product" onAction="#addProduct" />
+    <TableView fx:id="productTable">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Name" />
+            <TableColumn fx:id="priceColumn" text="Price" />
+        </columns>
+    </TableView>
+</VBox>
