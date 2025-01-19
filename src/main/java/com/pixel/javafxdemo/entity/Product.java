@@ -6,6 +6,8 @@ import jakarta.persistence.*;
 @Table(name = "products")
 public class Product {
 
+    // This is test for github push
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
